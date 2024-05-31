@@ -1,0 +1,427 @@
+.top-nav{
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-right: 0px;
+}
+
+@media (max-width: 600px) {
+  .top-nav{
+    justify-content:baseline;
+    align-items: center;
+  }
+}
+
+.left-section{
+  display: flex;
+  max-width: 272px;
+  align-items: center;
+}
+
+@media (max-width: 499px) {
+  .left-section{
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .left-section{
+    max-width: 130px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 880px) {
+  .left-section {
+    left: -100px;
+  }
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+@media (max-width: 700px) {
+  .logo-container{
+    max-width: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+}
+
+.amazon-mobile-logo-apg{
+  display: none;
+}
+
+@media (max-width: 500px) {
+  
+  .checkout-header .amazon-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 880px) {
+  .amazon-mobile-logo-apg {
+    display: inline-block;
+    height: 35px;
+    align-content: center;
+  }
+}
+
+
+.logo{
+  height: 50px;
+  width: 113px;
+}
+
+.delivery-location-container-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 145px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delivery-location-container-main img{
+  height: 15px;
+}
+
+.delivery-sub{
+ margin-left: 3px; 
+}
+
+.delivery-name{
+  color: rgb(204, 204, 204);
+  font-size: 12px;
+  font-weight: 400;
+  font-weight: bold;
+  margin-bottom: 0;
+  height: 14px;
+}
+
+.location-address{
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 0;
+  height: 16px;
+  
+}
+
+
+@media (max-width: 499px) {
+  .delivery-location-container-main{
+    display: none;
+    max-width: 70px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 880px) {
+  .delivery-location-container-main{
+    max-width: 70px;
+    margin-right: 0px;
+  }
+}
+  .location-address{
+    font-size: 8px;
+  }
+  .delivery-name{
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 880px) {
+  .location-address{
+     font-size: 8px;
+   }
+   .delivery-name{
+     font-size: 8px;
+     margin-bottom: 5px;
+   }
+ }
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+@media (max-width:499px) {
+  .middle-section{
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 780px) {
+  .middle-section{
+    padding-right: 0px;
+    max-width: 50%;
+    margin-right: 0px;
+  }
+}
+.search-container{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+@media (max-width: 600px) {
+  .search-container{
+    max-width: 80%;
+  }
+}
+
+@media (min-width:781px) and (max-width: 899px){
+  .search-container{
+    max-width: 80%;
+    white-space: none;
+  }
+}
+
+.search-items{
+  border: none;
+  padding: 11px 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 899px) {
+  .search-items{
+    display: none;
+  }
+}
+
+.search-input{
+  all: unset;
+  flex: 1;
+  background-color: white;
+  color: rgb(17, 17, 17);
+  height: 38px;
+  flex-shrink: 0;
+  padding-left: 10px;
+}
+
+
+@media (max-width: 780px) {
+  .search-input{
+    height: 30px;
+    min-width: 0px;
+  }
+
+  .search-input::placeholder{
+    font-size: 10px;
+  }
+}
+.search-button {
+  border: none;
+  background-color: rgb(250, 180, 49);
+  padding: 5.5px 10px;
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+
+.search-icon{
+  height:24px;
+}
+
+@media (min-width: 320px) and (max-width:780px) {
+  .search-button{
+    padding: 6.5px;
+  }
+  .search-icon{
+    height: 15px;
+  }
+}
+
+.right-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 390px;
+  flex-shrink: 0;
+  margin-left: -1px;
+  position: relative;
+}
+
+@media(min-width: 500px) and (max-width: 550px) {
+  .right-section{
+    left: -45px;
+  }
+}
+
+
+@media (max-width: 967px) {
+    .right-section{
+      flex: 1;
+    
+    }
+    .account-area, .returns-orders{
+    font-size: 8px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 631px) and (max-width:899px) {
+  .right-section{
+    width: 120px;
+  }
+}
+
+
+
+@media (min-width: 781px) and (max-width: 898px) {
+  .right-section{
+    left: -10px;
+  }
+}
+
+@media (min-width: 899px) and (max-width:967px) {
+  .right-section{
+    width: 300px;
+  }
+
+}
+.right-section p{ 
+  margin: 0;
+}
+
+.account-area{
+  padding: 5px 8px;
+}
+
+.returns-orders{
+  padding: 5px 8px; 
+}
+
+.cart-container{
+  display: flex;
+  margin-right: 15px;
+  position: relative;
+  padding: 10px 40px 7px 10px;
+  }
+
+.cart-container img{
+  width: 40px;
+}
+
+@media (max-width: 899px) {
+  .cart-container{
+    max-width: 40px;
+    padding: 10px;
+    margin-right: 0px;
+  }
+
+  .cart-container img{
+    width: 25px;
+    height: 20px;
+  }
+}
+
+.cart{
+  height: 28px;
+}
+
+.cart-items{
+  color: orange;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 30px;
+  top: 5px;
+}
+.cart-text{
+  color: orange;
+  position: absolute;
+  right: 5px;
+  bottom: -3px;
+}
+@media (max-width: 600px) {
+  .cart-text{
+    display: none;
+  }
+  .cart-items{
+    left: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 899px) {
+  .cart-items{
+    left: 25px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 899px) {
+  .cart-text{
+    display: none;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 899px) {
+  .cart-items{
+    left: 22px;
+  }
+}
+
+.country{
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+}
+
+.flag{
+  height: 20px;
+  width: 21.6px;
+}
+
+.country-lang{
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 4px;
+}
+
+@media (max-width: 780px) {
+  .country{
+    padding: 4px;
+  }
+  .flag{
+    width: 15px;
+  }
+  .country-lang{
+    font-size: 10px;
+  }
+}
+
+.account-list, .orders, .cart-text{
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: greenyellow;
+}
+
+@media (min-width: 320px) and (max-width:630px) {
+  .right-section{
+    width: 100px
+  }
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .account-list, .orders{
+    flex-shrink: none;
+    font-size: 6px;
+    font-weight: 400;
+  }
+}
+.logo-container:hover, .delivery-location-container-main:hover, .country:hover, .account-area:hover, .returns-orders:hover, .cart-container:hover{
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
